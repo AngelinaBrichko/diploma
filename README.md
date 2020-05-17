@@ -1,5 +1,5 @@
 # 11 проект с настройками Webpack
-*https://angelinabrichko.github.io/diploma/*
+*https://angelinabrichko.github.io/diploma*
 
 ## Версия
 *v3.0.0*
