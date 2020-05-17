@@ -1,0 +1,32 @@
+@import url(./__logo/technologies__logo.css);
+@import url(./__units/technologies__units.css);
+@import url(./__text/technologies__text.css);
+@import url(./__unit/technologies__unit.css);
+@import url(./__title/technologies__title.css);
+
+.technologies {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1232px;
+    background: #F5F6F7;
+    padding:80px 104px 97px 104px;
+    margin: auto;
+}
+@media screen and (max-width: 1439px) {
+    .technologies {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .technologies {
+        min-width: calc(100% - (40px*2));
+        padding: 40px 40px 49px 40px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .technologies {
+        min-width: calc(100% - (16px*2));
+        padding: 32px 16px 10px 16px;
+    }
+}

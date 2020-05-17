@@ -1,0 +1,27 @@
+.card__title {
+    max-width: 352px;
+    font-family: 'Robotoslab-regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #1A1B22;
+    margin: 0px auto 16px auto;
+
+}
+
+@media screen and (max-width: 1023px) {
+    .card__title {
+    width: 192px;
+    font-size: 22px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .card__title {
+        width: 256px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+}

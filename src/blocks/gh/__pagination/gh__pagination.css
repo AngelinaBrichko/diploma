@@ -1,0 +1,11 @@
+.gh__pagination {
+    position: relative;
+    max-width: 1232px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.swiper-pagination-bullet {
+    margin-left: 8px;
+}
+

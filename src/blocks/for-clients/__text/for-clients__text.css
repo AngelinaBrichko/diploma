@@ -1,0 +1,16 @@
+.for-clients__text{
+    max-width: 815px;
+    margin-bottom: 25px;
+    font-family: 'Roboto-regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1A1B22;
+}
+
+@media screen and (max-width: 1023px) {
+    .for-clients__text {
+        margin-bottom: 20px;
+    }
+}

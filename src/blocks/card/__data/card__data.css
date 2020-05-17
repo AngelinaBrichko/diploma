@@ -1,0 +1,25 @@
+.card__data {
+    width: 352px;
+    font-family: 'sourcesanspro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #B6BCBF;
+    margin: 20px auto 12px auto;
+}
+
+@media screen and (max-width: 1023px) {
+    .card__data {
+        width: 192px;
+        margin-top: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .card__data {
+        width: 256px;
+        margin-top: 15.12px;
+        margin-bottom: 15.98px;
+    }
+}

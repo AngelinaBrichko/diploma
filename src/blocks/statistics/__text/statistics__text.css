@@ -1,0 +1,16 @@
+.statistics__text {
+    width: 190px;
+    font-family: 'Roboto-regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #B6BCBF;
+}
+
+.statistics__text:first-child {
+    width: 90px;
+    margin-right: 15px;
+}

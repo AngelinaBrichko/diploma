@@ -1,0 +1,28 @@
+.technologies__units {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-width: calc(100% - 676px);
+    margin-top: 13px;
+    margin-right: 112px
+}
+
+@media screen and (max-width: 1439px) {
+    .technologies__units {
+        margin-right: 0px;
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .technologies__units {
+        min-width: calc(100% - (40px*2));
+        margin-top: 0px;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .technologies__units {
+        min-width: calc(100% - (16px*2));
+    }
+}

@@ -1,0 +1,12 @@
+.technologies__unit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 138px;
+    width: 120px; 
+}
+@media screen and (max-width: 767px) {
+    .technologies__unit {
+        margin-bottom: 42px;
+    }
+}

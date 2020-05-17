@@ -1,0 +1,49 @@
+.gh__button {
+    width: 40px;
+    height: 40px;
+    background: #1A1B22;
+    border-radius: 1000px;
+    color: #fff;
+    margin: 0px 10px;
+    margin-top: -48px
+}
+.gh__button::after {
+    font-size: 13.41px
+}
+
+.gh__shadow-prev::after {
+        width: 104px;
+        height: 288px;
+        content: '';
+        display: block;
+        background: linear-gradient(-90deg, rgba(245, 246, 247, 0) 0%, #F5F6F7 100%);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+}
+.gh__shadow-next::after {
+    width: 104px;
+    height: 288px;
+    content: '';
+    display: block;
+    background: linear-gradient( 90deg, rgba(245, 246, 247, 0) 0%, #F5F6F7 100%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1023px) {
+    .gh__shadow-prev::after {
+        display: none;
+    }
+    .gh__shadow-next::after {
+        display: none;
+    }
+    .gh__button {
+        display: none;
+    }
+}

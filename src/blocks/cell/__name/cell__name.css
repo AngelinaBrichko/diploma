@@ -1,0 +1,14 @@
+.cell__name {
+    font-family: 'Robotoslab-regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #1A1B22;
+}
+@media screen and (max-width: 1023px) {
+    .cell__name {
+        font-size: 20px;
+      line-height: 30px;
+    }
+}

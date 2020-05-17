@@ -1,0 +1,20 @@
+@import url(./__text/for-clients__text.css);
+@import url(./__title/for-clients__title.css);
+
+.for-clients {
+    max-width: 1232px;
+    padding: 80px 104px 94px 104px;
+    margin: auto;
+}
+
+@media screen and (max-width: 1023px) {
+    .for-clients {
+        padding: 30px 40px 26px 40px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .for-clients {
+        padding: 16px;
+        padding-bottom: 40px
+    }
+}

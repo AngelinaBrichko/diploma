@@ -1,0 +1,15 @@
+.header__points {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 189px;
+    margin: 0px 0px auto auto;
+    padding: 0px;
+}
+
+@media screen and (max-width: 767px) {
+    .header__points {
+        width: 148px;
+    }
+}

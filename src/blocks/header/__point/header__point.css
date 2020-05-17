@@ -1,0 +1,23 @@
+.header__point {
+    font-family: 'Roboto-regular';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-bottom: 3px solid #FFFFFF; /* Параметры линии под текстом */
+    padding-bottom: 25px;
+}
+
+@media screen and (max-width: 1023px) {
+    .header__point {
+        padding-bottom: 17px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__point {
+        font-size: 16px;
+        padding-bottom: 16px;
+    }
+}

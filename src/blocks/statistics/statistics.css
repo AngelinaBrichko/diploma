@@ -1,0 +1,30 @@
+@import url(./__info/statistics__info.css);
+@import url(.//__text/statistics__text.css);
+@import url(./__title/statistics__title.css);
+@import url(./__meters/statistics__meters.css);
+@import url(./__meter/statistics__meter.css);
+@import url(./__chart/statistics__chart.css);
+@import url(./__date/statistics__date.css);
+@import url(./__line/statistics__line.css);
+@import url(./__count/statistics__count.css);
+
+.statistics {
+    max-width: 1232px;
+    max-height: 866px;
+    background: #F5F6F7;
+    padding: 80px 104px;
+    margin: auto;
+}
+
+@media screen and (max-width: 1023px) {
+    .statistics {
+        min-width: calc(100% - (40px*2));
+        padding: 40px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .statistics {
+        min-width: calc(100% - (16px*2));
+        padding: 24px 16px 38px 16px;
+    }
+}

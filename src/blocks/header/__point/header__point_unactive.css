@@ -1,0 +1,8 @@
+.header__point_unactive {
+    color: #B6BCBF;
+    border-bottom: none; /* Параметры линии под текстом */
+}
+
+.header__point_unactive:hover {
+    color: #FFFFFF;
+}

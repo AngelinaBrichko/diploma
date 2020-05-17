@@ -1,0 +1,21 @@
+.header__text-black {
+    border-bottom: 3px solid #1A1B22;; /* Параметры линии под текстом */
+    padding-bottom: 25px;
+    color: #1A1B22;
+}
+
+.header__text-black:hover {
+    color: #1A1B22;
+}
+
+@media screen and (max-width: 1023px) {
+    .header__text-black {
+        padding-bottom: 17px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__text-black {
+        padding-bottom: 16px;
+    }
+}

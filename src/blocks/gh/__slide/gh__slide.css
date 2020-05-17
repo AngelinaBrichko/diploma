@@ -1,0 +1,42 @@
+.gh__slide {
+    width: 400px;
+    height: 288px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    margin-bottom: 48px;
+}
+
+.gh__slide:hover {
+    cursor: pointer;
+    box-shadow: 0px 12px 58px -40px rgba(8, 29, 45, 0.2)
+ }
+
+ .swiper-slide-prev::after {
+        content: '';
+        display: block;
+        background: linear-gradient(-90deg, rgba(245, 246, 247, 0) 0%, #F5F6F7 100%);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right:0;
+        z-index: 1;
+}
+
+
+@media screen and (max-width: 1023px) {
+    .gh__slide {
+        width: 336px;
+        height: 242px;
+        margin-bottom: 32px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .gh__slide {
+        width: 288px;
+        height: 264px;
+        margin-bottom: 16px;
+    }
+}

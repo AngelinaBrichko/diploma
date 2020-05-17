@@ -1,0 +1,14 @@
+.cell__email {
+    font-family: 'Roboto-regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1A1B22;
+    margin-top: 2px
+}
+@media screen and (max-width: 1023px) {
+    .cell__email {
+        margin-top: 0
+    }
+}

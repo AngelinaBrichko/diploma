@@ -1,0 +1,16 @@
+.statistics__title {
+    font-family: 'Robotoslab-regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #1A1B22;
+    margin: 0px;
+
+}
+
+@media screen and (max-width: 767px) {
+    .statistics__title {
+        font-size: 22px;
+    }
+}

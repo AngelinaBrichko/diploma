@@ -1,0 +1,28 @@
+.card__source {
+    width: 352px;
+    font-family: 'Robotoslab-regular';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #B6BCBF;
+    margin: auto auto 24px auto;
+}
+
+@media screen and (max-width: 1023px) {
+    .card__source {
+    width: 192px;
+    margin-bottom: 16px;
+    margin-top: 12px
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .card__source {
+    width: 256px;
+ 
+    margin-top: 5px
+    }
+}

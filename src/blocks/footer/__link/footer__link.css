@@ -1,0 +1,21 @@
+.footer__link {
+    font-family: 'sourcesanspro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #1A1B22;
+    text-decoration: none;
+    margin: 0px;
+    padding-bottom: 0;
+    height: 120px;
+}
+.footer__link:hover {
+    opacity: .8
+}
+@media screen and (max-width: 767px) {
+    .footer__link {
+        line-height: 48px;
+    }
+}

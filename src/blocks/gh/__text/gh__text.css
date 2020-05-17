@@ -1,0 +1,18 @@
+@media screen and (max-width: 1440px) {
+    .gh__text {
+        display:none;
+    }
+}
+@media screen and (max-width: 767px) {
+    .gh__text {
+        display: block;
+        width: 288px;
+        height: 56px;
+        border: 1px solid #1A1B22;
+        box-sizing: border-box;
+        text-align: center;
+        padding-top: 15px;
+        border-radius: 80px;
+        margin: 24px auto 0px auto;
+    }
+}
