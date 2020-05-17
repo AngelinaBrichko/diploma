@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 767px) {
     .search__text  {
-        width: 260px;
+        width: 250px;
         margin: 17px 16px;
     }
 }
