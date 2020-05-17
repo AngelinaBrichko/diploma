@@ -1,8 +1,8 @@
-# 11 проект с настройками Webpack
+# Дипломный проект
 *https://angelinabrichko.github.io/diploma/*
 
 ## Версия
-*v3.0.0*
+*v1.0.0*
 
 ## Инструкция как открыть проект 
 1. склонировать проект с помощью терминала: git clone https://github.com/AngelinaBrichko/diploma

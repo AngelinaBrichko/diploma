@@ -15,7 +15,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name].[chunkhash].js'
+        filename: 'js/[name].[chunkhash].js'
     },
     module: {
         rules: [{
@@ -41,20 +41,28 @@ module.exports = {
               test: /\.(eot|ttf|woff|woff2)$/,
               loader: 'file-loader?name=./vendor/[name].[ext]'
             },
+
             {
                 test: /\.css$/i,
-                    use: [
-                            (isDev ? 'style-loader' : MiniCssExtractPlugin.loader),
-                                     'css-loader', 
-                                    'postcss-loader'
-                            ]
-            }
-        ]
-    },
+                  use: [
+                    {
+                      loader: MiniCssExtractPlugin.loader,
+                      options: { publicPath: '../', }
+                    },
+                    {
+                      loader: 'css-loader',
+
+                    },
+                    {
+                      loader: 'postcss-loader',
+                    },
+                  ],
+                }
+        ]},
     plugins: [
     
         new MiniCssExtractPlugin({
-            filename: '[name].[contenthash].css',
+            filename: 'css/[name].[contenthash].css',
         }),
         new OptimizeCssAssetsPlugin({
             assetNameRegExp: /\.css$/g,
