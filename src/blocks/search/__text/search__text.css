@@ -1,0 +1,30 @@
+.search__text {
+    font-family: 'Roboto-regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #B6BCBF;
+    color: #1A1B22;
+    margin: 21px auto 21px 24px;
+    border: none;
+    width: 100%;
+    outline: none;
+    
+}
+.search__text::placeholder {
+    color: #B6BCBF;
+}
+@media screen and (max-width: 1023px) {
+    .search__text  {
+        margin: 17px  auto auto 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .search__text  {
+        width: 250px;
+        margin: 17px 16px;
+    }
+}
+

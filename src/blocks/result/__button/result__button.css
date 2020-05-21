@@ -1,0 +1,35 @@
+.result__button {
+    display: block;
+    width: 288px;
+    height:64px;
+    background: #fff;
+    border-radius: 80px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Roboto-regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #1A1B22;
+    margin: 64px auto 0px auto;
+}
+
+.result__button:active {
+    background: #fff;
+    opacity: .7;
+}
+@media screen and (max-width: 1023px) {
+    .result__button  {
+        margin: 32px auto 0px auto;
+
+    }
+}
+
+@media screen and (max-width: 676px) {
+    .result__button  {
+        margin: 13px auto 0px auto;
+
+    }
+}

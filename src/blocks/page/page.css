@@ -1,0 +1,29 @@
+.page {
+    min-width: 1440px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1439px) {
+    .page {
+        min-width: 1024px;
+        max-width: 1439px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .page {
+        min-width: 768px;
+        max-width: 1023px
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .page {
+        min-width: 320px;
+        max-width: 767px;
+    }
+}

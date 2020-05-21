@@ -1,0 +1,15 @@
+.statistics__meters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1232px;
+    margin-top: 16px;
+    margin-left: 104px;
+    text-align: right;
+}
+
+@media screen and (max-width: 767px) {
+    .statistics__meters {
+        display: none;
+    }
+}

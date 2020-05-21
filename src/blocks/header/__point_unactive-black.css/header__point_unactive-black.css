@@ -1,0 +1,9 @@
+.header__point_unactive-black {
+    color: #B6BCBF;
+    border-bottom: none; /* Параметры линии под текстом */
+    padding-bottom: 0;
+}
+
+.header__point_unactive-black:hover {
+    color: #1A1B22;
+}

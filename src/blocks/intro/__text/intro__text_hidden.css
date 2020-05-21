@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px) {
+    .intro__text_hidden {
+        display: none
+    }
+}

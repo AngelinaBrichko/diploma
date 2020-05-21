@@ -1,0 +1,27 @@
+@import url(./__name/header__name.css);
+@import url(./__points/header__points.css);
+@import url(./__point/header__point.css);
+@import url(./__point/header__point_unactive.css);
+
+.header {
+    color: #FFFFFF;
+    padding: 30px 104px 26px 104px;
+    margin: auto;
+    max-width: 1232px;
+    background: rgba(196, 196, 196, 0.01);
+    box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+}
+
+
+@media screen and (max-width: 1023px) {
+    .header {
+        padding: 22px 40px 18px 40px;
+        min-width: calc(100% - (40px*2));
+    }
+}
+@media screen and (max-width: 767px) {
+    .header {
+        padding: 16px;
+        min-width: calc(100% - (16px*2));
+    }
+}

@@ -1,0 +1,20 @@
+.cell__text {
+    font-family: 'Roboto-regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1A1B22;
+    margin: 16px 24px auto 24px;
+}
+
+@media screen and (max-width: 1023px) {
+    .cell__text {
+        margin: 16px 16px auto 24px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .cell__text {
+        margin: 16px 26px auto 16px;  
+    }
+}

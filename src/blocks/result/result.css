@@ -1,0 +1,26 @@
+@import url(./__group/result__group.css);
+@import url(./__list/result__list.css);
+@import url(./__button/result__button.css);
+
+
+.result {
+    max-width: 1232px;
+    min-height: 974px;
+    background-color: #F5F6F7;
+    padding: 80px 104px;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 1023px) {
+    .result {
+        min-width: calc(100% - (40px*2));
+        padding: 40px 40px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .result {
+        min-width: calc(100% - (16px*2));
+        padding: 32px 16px 44px 16px;
+    }
+}

@@ -1,0 +1,17 @@
+.statistics__chart {
+    display: grid;
+    grid-template-columns: 104px calc(100% - (104px)) ;
+    grid-template-rows: auto auto;
+    justify-content: left;
+    grid-column-gap: 0;
+    grid-row-gap: 56px;
+    margin: 8px auto 0px 0px;
+}
+
+@media screen and (max-width: 767px) {
+    .statistics__chart {
+        grid-template-columns: 96px calc(100% - (96px)) ;
+        grid-row-gap: 24px;
+        margin: 18px auto 0px 0px;
+    }
+}

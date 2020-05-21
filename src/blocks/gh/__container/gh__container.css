@@ -1,0 +1,16 @@
+.gh__container {
+    max-width: 1440px;
+    margin: 64px -104px 0 -104px;
+    overflow: hidden;
+}
+@media screen and (max-width: 1023px) {
+    .gh__container {
+        margin: 32px -40px 0 -40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .gh__container {
+        margin: 16px -16px 0 -16px;
+    }
+}

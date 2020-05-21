@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="Дипломаня работа">
+        <meta name="keywords" content="html, css, js">
+        <meta name="author" content="Ангелина Бричко" >
+        <link rel="icon" href="<%=require('../images/favicon.svg').default%>" type="image/ico">
+        <title>Аналитика</title>
+        <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.analytic.css %>">
+    </head>
+<body>
+<div class="page">
+
+    <header class="header header__black">
+        <p class="header__name">NewsAnalyzer</p>
+        <ul class="header__points">
+            <li><a href="./index.html" class="header__point header__point_unactive-black">Главная</a></li>
+            <li><a href="./about.html" class="header__point header__point_unactive-black">О проекте</a></li>
+        </ul>
+    </header>
+
+    <section class="intro">
+        <p class="intro__text intro__text_hidden">Главная <span class="intro__text intro__text_gray">/ Аналитика</span></p>
+        <h2 class="intro__title">Вы спросили: «Путешествия»</h2>
+        <p class="intro__text">Новостей за неделю: <span class="intro__text intro__text_bold">34 324</span></p>
+        <p class="intro__text">Упоминаний в заголовках: <span class="intro__text intro__text_bold">235</span></p>
+    </section>
+
+
+<div class="content__gray">
+    <section class="statistics">
+        <h3 class="statistics__title">Аналитика по дням</h3>
+        <div class="statistics__info">
+            <p class="statistics__text">Дата (август)</p>
+            <p class="statistics__text">Кол-во упоминаний</p>
+        </div>
+        <div class="statistics__meters">
+            <p class="statistics__meter">0</p>
+            <p class="statistics__meter">25</p>
+            <p class="statistics__meter">50</p>
+            <p class="statistics__meter">75</p>
+            <p class="statistics__meter">100</p>
+        </div>
+
+        <div class="statistics__chart">
+            <p class="statistics__date">19, пн</p>
+            <div class="statistics__line"><span class="statistics__count">15</span></div>
+            
+            <p class="statistics__date">20, вт</p>
+            <div class="statistics__line"><span class="statistics__count">18</span></div>
+            
+            <p class="statistics__date">21, ср</p>
+            <div class="statistics__line"><span class="statistics__count">11</span></div>
+
+            <p class="statistics__date">22, чт</p>
+            <div class="statistics__line"><span class="statistics__count">39</span></div>
+
+            <p class="statistics__date">23, пт</p>
+           <div class="statistics__line"><span class="statistics__count">45</span></div>
+
+            <p class="statistics__date">24, сб</p>
+            <div class="statistics__line"><span class="statistics__count">73</span></div>
+
+            <p class="statistics__date">25, вс</p>
+           <div class="statistics__line"><span class="statistics__count">34</span></div>
+        </div>
+
+        <div class="statistics__meters">
+            <p class="statistics__meter">0</p>
+            <p class="statistics__meter">25</p>
+            <p class="statistics__meter">50</p>
+            <p class="statistics__meter">75</p>
+            <p class="statistics__meter">100</p>
+        </div>
+    </section>
+</div>   
+    <footer class="footer">
+        <p class="footer__copyright">&#169; 2020 Angelina Brichko</p>
+        <nav>
+            <ul class="footer__links">
+            <li><a class="footer__link" href="./index.html">Главная</a></li>
+            <li><a class="footer__link" href="./about.html">О проекте</a></li>
+            <li><a class="footer__link" href="https://praktikum.yandex.ru/">Яндекс.Практикум</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul class="footer__images">
+                <li><a href="https://github.com/AngelinaBrichko"><img class="footer__image" src="<%=require('../images/gh.svg').default %>" alt="GitHub"></a></li>
+                <li><a href="https://www.facebook.com"><img class="footer__image" src="<%=require('../images/fb.svg').default %>" alt="Facebook"></a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</div>
+
+ <script src="<%= htmlWebpackPlugin.files.chunks.analytic.entry %>"></script>
+  
+</body>
+</html>

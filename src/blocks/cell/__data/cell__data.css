@@ -1,0 +1,19 @@
+.cell__data {
+    color: #B6BCBF;
+    margin: 24px auto 16px 24px;
+    font-family: 'Roboto-regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+}
+@media screen and (max-width: 1023px) {
+    .cell__data {
+        margin: 24px auto 19px 24px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .cell__data {
+        margin: 16px auto 11px 16px; 
+    }
+}
