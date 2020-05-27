@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 767px) {
     .result__list {
-        grid-template-columns: 288px;
+        grid-template-columns: repeat(auto-fill, 288px);
         grid-gap: auto;
         margin-top: 36.84px
     }

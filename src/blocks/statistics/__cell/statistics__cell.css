@@ -1,0 +1,9 @@
+.statistics__cell {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 56px
+}
+.statistics__cell:last-child {
+    margin-bottom: 0
+}

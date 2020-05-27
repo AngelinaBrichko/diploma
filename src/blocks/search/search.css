@@ -4,6 +4,7 @@
 @import url(./__text/search__text.css);
 @import url(./__button/search__button.css);
 
+
 .search {
     width: 100%;
     max-height: 576px;
