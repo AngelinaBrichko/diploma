@@ -3,7 +3,7 @@
 *https://angelinabrichko.github.io/diploma/*
 
 ## Версия
-*v1.0.0*
+*v2.0.0*
 
 ## Инструкция как открыть проект 
 1. склонировать проект с помощью терминала: git clone https://github.com/AngelinaBrichko/diploma
