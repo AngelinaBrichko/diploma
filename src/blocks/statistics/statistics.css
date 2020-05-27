@@ -4,6 +4,7 @@
 @import url(./__meters/statistics__meters.css);
 @import url(./__meter/statistics__meter.css);
 @import url(./__chart/statistics__chart.css);
+@import url(./__cell/statistics__cell.css);
 @import url(./__date/statistics__date.css);
 @import url(./__line/statistics__line.css);
 @import url(./__count/statistics__count.css);

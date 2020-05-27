@@ -1,8 +1,7 @@
-@media screen and (max-width: 1440px) {
-    .gh__text {
+.gh__text {
         display:none;
     }
-}
+    
 @media screen and (max-width: 767px) {
     .gh__text {
         display: block;

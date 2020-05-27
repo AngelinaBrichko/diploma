@@ -1,29 +1,5 @@
 .statistics__line {
     background: #2F71E5;
     height: 24px;
-    width: 15%;
 }
 
-.statistics__line:nth-child(4) {
-    width: 18%;
-}
-
-.statistics__line:nth-child(6) {
-    width: 11%;
-}
-
-.statistics__line:nth-child(8) {
-    width: 39%;
-}
-
-.statistics__line:nth-child(10) {
-    width: 45%;
-}
-
-.statistics__line:nth-child(12) {
-    width: 73%;
-}
-
-.statistics__line:nth-child(14) {
-    width: 34%;
-}
