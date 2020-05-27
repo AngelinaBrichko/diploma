@@ -9,7 +9,7 @@
         <meta name="author" content="Ангелина Бричко" >
         <link rel="icon" href="./images/favicon.svg" type="image/ico">
         <title>Аналитика</title>
-        <link rel="stylesheet" href="css/analytic.7b65e7546c9531d76128.css">
+        <link rel="stylesheet" href="css/analytic.cef6202b7c93bd703f5f.css">
     </head>
 <body>
 <div class="page">
@@ -24,9 +24,11 @@
 
     <section class="intro">
         <p class="intro__text intro__text_hidden">Главная <span class="intro__text intro__text_gray">/ Аналитика</span></p>
-        <h2 class="intro__title">Вы спросили: «Путешествия»</h2>
-        <p class="intro__text">Новостей за неделю: <span class="intro__text intro__text_bold">34 324</span></p>
-        <p class="intro__text">Упоминаний в заголовках: <span class="intro__text intro__text_bold">235</span></p>
+        <h2 class="intro__title">Вы спросили: "<span id='analyticTitle'></span>"</h2>
+        <p class="intro__text">Новостей за неделю: <span class="intro__text intro__text_bold" 
+            id="numberOfNews">34 324</span></p>
+        <p class="intro__text">Упоминаний в заголовках: <span class="intro__text intro__text_bold" 
+            id="mentionInTitle">235</span></p>
     </section>
 
 
@@ -34,7 +36,7 @@
     <section class="statistics">
         <h3 class="statistics__title">Аналитика по дням</h3>
         <div class="statistics__info">
-            <p class="statistics__text">Дата (август)</p>
+            <p class="statistics__text">Дата (<span id='month'></span>)</p>
             <p class="statistics__text">Кол-во упоминаний</p>
         </div>
         <div class="statistics__meters">
@@ -46,26 +48,6 @@
         </div>
 
         <div class="statistics__chart">
-            <p class="statistics__date">19, пн</p>
-            <div class="statistics__line"><span class="statistics__count">15</span></div>
-            
-            <p class="statistics__date">20, вт</p>
-            <div class="statistics__line"><span class="statistics__count">18</span></div>
-            
-            <p class="statistics__date">21, ср</p>
-            <div class="statistics__line"><span class="statistics__count">11</span></div>
-
-            <p class="statistics__date">22, чт</p>
-            <div class="statistics__line"><span class="statistics__count">39</span></div>
-
-            <p class="statistics__date">23, пт</p>
-           <div class="statistics__line"><span class="statistics__count">45</span></div>
-
-            <p class="statistics__date">24, сб</p>
-            <div class="statistics__line"><span class="statistics__count">73</span></div>
-
-            <p class="statistics__date">25, вс</p>
-           <div class="statistics__line"><span class="statistics__count">34</span></div>
         </div>
 
         <div class="statistics__meters">
@@ -96,7 +78,7 @@
 
 </div>
 
- <script src="js/analytic.031f72973c2ed1fc76fc.js"></script>
+ <script src="js/analytic.d9500d7e54c38fcf7947.js"></script>
   
 </body>
 </html>
