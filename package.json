@@ -43,6 +43,6 @@
     "file-loader": "6.0.0",
     "flickity": "2.2.1",
     "image-webpack-loader": "6.0.0",
-    "swiper": "5.4.0"
+    "swiper": "6.5.1"
   }
 }
